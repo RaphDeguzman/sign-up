@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <link rel="stylesheet" href="sstyles.css">
+         <title> Sign In Form</title>
+      
+
+    </head>
+    <body background="https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=1060&t=st=1726387725~exp=1726388325~hmac=3492399b196f90b4b95033ce6ba9975f8878058933a1ca5027f8e99f777db2d8">
+        <h1>SIGN IN</h1>
+    <body>
+       
+    <label> Please sign in to create an account</label>
+    
+<br>
+        
+        <label for="name">Email Address:</label>
+        <br>
+        <div class="input-box">
+        <input type="text" id="name" name="pang" placeholder=" Enter Email Address">
+    </div>
+        <br>
+
+        <!---->
+        <label for="pass">Password: </label>
+        
+        <br>
+        <div class="input-box">
+            <input type="password" id="pass" placeholder="Enter Password">
+          <img src="hidden.png" id="eye">
+        </div>
+        <script>
+            let eye = document.getElementById("eye");
+            let pass = document.getElementById("pass");
+        
+            eye.onclick = function(){
+                if(pass.type == "password"){
+                    pass.type = "text";
+                    eye.src =" eye.png";
+                  
+                }else{
+                    pass.type = "password";
+                    eye.src ="hidden.png";
+        
+        
+                }
+            }
+        </script>
+       
+       
+       <br>
+<body>
+    
+
+        <label for="pass">Confirm Password: </label>
+        <br>
+        <div class="input-box">
+        <input type="password"  id="password" placeholder="Confirm Password">
+        <img src="hidden.png" id="eyeicon">
+       
+        </div>
+
+        <script>
+            let eyeicon = document.getElementById("eyeicon");
+            let password = document.getElementById("password");
+        
+            eyeicon.onclick = function(){
+                if(password.type == "password"){
+                    password.type = "text";
+                    eyeicon.src =" eye.png";
+                  
+                }else{
+                    password.type = "password";
+                    eyeicon.src ="hidden.png";
+        
+        
+                }
+            }
+        </script>
+        
+   
+       
+    </body>
+
+    <button> <a href="login.html"> <h3>Cancel</h3></a></button> 
+    <button><h3> Sign Up</h3></button>
+
+
+<br>
+
+        <input type="checkbox" id="remember me" values="remember me" name="title">
+            <label for="remember me"> Remember Me</label>
+            <p>By Creating an account you agree to our Terms & Privacy</p>
+
+            <p> Contact The Web Developer for some Issues</p>
+            <br>
+            
+            
+            
+<a href="https://www.facebook.com/"><img src="facebook.png" ></a>
+<a href="https://www.instagram.com/"><img src="instagram.png" ></a>
+<a href="https://www.tiktok.com/"><img src="tiktok.png" ></a>
+</div>
+           
+          
+       
+
+            
+
+       
+       
+    </body>
+
+    
+</html>
